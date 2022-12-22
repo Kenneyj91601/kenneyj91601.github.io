@@ -1,0 +1,32 @@
+h1{
+  color: black;
+}
+
+h3{
+  color: red;
+  background-color: yellow;
+}
+h3 {text-align: center;}
+
+p1{
+  color: purple;
+}
+
+body {
+  background-color: lightblue;
+}
+
+div {
+  height: 100;
+  width: 100;
+  background-color: silver;
+}
+
+table, th, td {
+  border: 5px solid black;
+}
+
+img.animated-gif{
+  width: 200px;
+  height: auto;
+}

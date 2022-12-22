@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Kenney's Final Project</title>
+  </head>
+
+    <h3>click <a href="index.html">--here--</a> to go back to the home page</h3>
+
+<p>`function fizzbuzz() {
+	var display = document.getElementById('display');
+	var displayHTML = "";
+	var fb = "fizzbuzz";
+	var f = "fizz";
+	var b = "buzz";
+	for (i = 0; i < 100; i++) {
+		if ((i%3==0)&&(i%5==0)){
+			displayHTML += "<p>" + fb + "</p>";
+			i+=1;
+		}
+		else if (i%3==0) {
+			displayHTML += "<p>" + f + "</p>";
+			i+=1;
+		}
+		else if (i%5==0) {
+			displayHTML += "<p>" + b + "</p>";
+			i+=1;
+		}
+		else {
+		displayHTML += "<p>" + i + "</p>";
+	}
+	display.innerHTML = displayHTML
+ }
+}
+
+</script>
+
+</head>
+
+<body onload="fizzbuzz()">
+<div id="display">
+
+</div>
+</body>
+
+</html>`</p>
